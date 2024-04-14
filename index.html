@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Digital Clock with Alarm</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+ 
+
+    </style>
+</head><dl></dl>
+<body>
+    <div id="main">
+        <h2>Alarm Clock Project</h2>
+        <div id="clock">00:00:00</div>
+        <audio id="ringtone" src="tone.mp3"></audio>
+        <div>
+            Set Alarm : <input type="time" id="alarm_time"> 
+        </div>
+        <div>
+            <button id="start" onclick="activateAlarm()">Alarm Set & Activate</button>
+            <button id="stop" onclick="stopAlarm()">Stop Alarm</button>
+        </div>
+        <div id="status_msg"></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

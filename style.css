@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#main{
+    height: 300px;
+    width: 450px;
+    border:10px solid rgb(175, 239, 166);
+    border-style: groove;
+    border-radius: 0 10px 0 10px;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+h2{
+    margin-top:10px;
+    font-family: cursive;
+}
+#clock{
+    font-size: 3em;
+    font-family: Digital-7 !important;
+}
+input{
+    width: 160px;
+    height: 25px;
+    font-size: 18px;
+}
+button{
+    padding:5px 10px;
+    margin:0 5px;
+    border: none;
+    outline: none;
+    color:white;
+    cursor: pointer;
+}
+
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: red;
+}
+button:hover{
+    background-color: rgba(121, 106, 106, 0.74)!important;
+}
+button:active{
+    background-color: rgba(241, 37, 22, 0.708)!important;
+}
+#status_msg{
+    color:green;
+}
